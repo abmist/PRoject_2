@@ -190,7 +190,7 @@ function makeGraphs(error, projectsJson, statesJson) {
         .group(all)
         .html({
         some: '<strong>%filter-count</strong> selected out of <strong>%total-count</strong> records',
-        all: 'All records selected. Please click on the graph to apply filters.'}); 
+        all: 'All records selected.'}); 
 
     // Charts variables: chart binding to HTML elements by CSS ID selectors
 
