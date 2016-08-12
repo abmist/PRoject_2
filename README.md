@@ -267,7 +267,9 @@ Install the dependencies:
 
 `pip install -r requirements.txt`
 
-In this project, we've used data that originally were in a CSV file called *opendata_projects_clean.csv*. It was upload to an instance of MongoDb running locally. In doing so, the content was be converted to JSON format.
+In this project, we've used data that originally were in a CSV file called *opendata_projects_clean.csv*. Note: *Due to the size of the file, it was not possible to upload to GitHub. The file can be downloaded [here.] (http://data.donorschoose.org/open-data/overview/)* 
+
+The file is uploaded to an instance of MongoDb running locally. In doing so, the content is be converted to JSON format.
 
 To do that, open your terminal and run mongoDB by running the command:
  `mongod`
@@ -286,7 +288,7 @@ Now you can open up your browser and in the URL bar enter `http://127.0.0.1:5000
 
 
 ## Visit the site
-Note: Due to some limitations of the platform used to deploy the project, it's better to lower the limit of results. Charts would look different if all data would be loaded. Likewise, some axis may need to be adjusted. 
+Note: Due to some limitations of the platform used to deploy the project, it's better to lower the limit of results (20,000). Charts would look different if all data would be loaded. Likewise, some axis may need to be adjusted. 
 
 Deployed thanks to Heroku.
 
